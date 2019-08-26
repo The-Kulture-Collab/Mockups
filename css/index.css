@@ -1,0 +1,39 @@
+.header{
+    height: 22.5rem;
+}
+.header-home{
+    height: 22.5rem;
+    background-color: #444747;
+    color: #D8D8D8
+}
+.body-style{
+    height: 35rem;
+    background-color: #FEC0C0;
+}
+span.storyteller {
+    border-bottom: 1px solid #75F575;
+    display:block;
+    font-family: "Times New Roman", Times, serif;
+}
+span.creator {
+    border-bottom: 1px solid #F57575;
+    display:block;
+    font-family: "Times New Roman", Times, serif;
+}
+span.enterprise {
+    border-bottom: 1px solid #FFE76D;
+    display:block;
+    font-family: "Times New Roman", Times, serif;
+}
+.img-bottom{
+    margin-top:10rem;
+}
+.product-holder {
+    position: relative;
+    display: block;
+}
+.plus-image {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -25px;
+}
