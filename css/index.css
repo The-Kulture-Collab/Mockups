@@ -32,8 +32,23 @@ span.enterprise {
     position: relative;
     display: block;
 }
-.plus-image {
+.img-body{
     position: absolute;
-    margin-top: -25px;
-    margin-left: -25px;
+}
+.body-text{
+    padding: 2rem;
+    color: #606060;
+    opacity: 1;
+    text-align: center;
+    font: Medium 25px/32px jdIcoFont;
+}
+.sec-2{
+    height: 20rem;
+    background-color: #C7D9ED;
+
+}
+.sec-3{
+    height: 20rem;
+    background-color:#C7F38F;
+
 }
