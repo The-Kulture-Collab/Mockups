@@ -14,20 +14,23 @@ span.storyteller {
     border-bottom: 1px solid #75F575;
     display:block;
     font-family: "Times New Roman", Times, serif;
+    text-align: center;
 }
 span.creator {
     border-bottom: 1px solid #F57575;
     display:block;
     font-family: "Times New Roman", Times, serif;
+    text-align: center;
 }
 span.enterprise {
     border-bottom: 1px solid #FFE76D;
     display:block;
     font-family: "Times New Roman", Times, serif;
+    text-align: center;
 }
-.img-bottom{
+/* .img-bottom{
     margin-top:10rem;
-}
+} */
 .product-holder {
     position: relative;
     display: block;
@@ -36,7 +39,6 @@ span.enterprise {
     position: absolute;
 }
 .body-text{
-    padding: 2rem;
     color: #606060;
     opacity: 1;
     text-align: center;
@@ -52,3 +54,18 @@ span.enterprise {
     background-color:#C7F38F;
 
 }
+.center-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 70%;
+  }
