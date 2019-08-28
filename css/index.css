@@ -9,6 +9,8 @@
 .body-style{
     height: 35rem;
     background-color: #FEC0C0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 span.storyteller {
     border-bottom: 1px solid #75F575;
@@ -42,11 +44,14 @@ span.enterprise {
     color: #606060;
     opacity: 1;
     text-align: center;
-    font: Medium 25px/32px jdIcoFont;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 .sec-2{
     height: 20rem;
     background-color: #C7D9ED;
+    padding-top: 5rem;
+    
 
 }
 .sec-3{
@@ -55,17 +60,24 @@ span.enterprise {
 
 }
 .center-main {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    background-image: url(../images/Component\ 5\ –\ 1.png);
     width: 100%;
     height: 100%;
+    background-size:cover;
+    margin-top: -1rem;
+  }
+  .center-middel {
+    background-image: url(../images/Group\ 81.png);
+    width: 100%;
+    height: 55%;
+    background-size:cover;
+    margin-top: -4rem;
   }
 
   .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    background-image: url(../images/Component\ 7\ –\ 1.png);
     width: 100%;
-    height: 70%;
+    height: 100%;
+    background-size:cover;
+    margin-top: -3rem;
   }
