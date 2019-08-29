@@ -1,13 +1,10 @@
-.header{
-    height: 22.5rem;
-}
+
 .header-home{
-    height: 22.5rem;
     background-color: #444747;
     color: #D8D8D8
 }
 .body-style{
-    height: 35rem;
+    
     background-color: #FEC0C0;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -48,38 +45,43 @@ span.enterprise {
     padding-bottom: 2rem;
 }
 .sec-2{
-    height: 20rem;
     background-color: #C7D9ED;
     padding-top: 5rem;
-    
-
+    z-index: -1;
 }
 .sec-3{
-    height: 20rem;
+
     background-color:#C7F38F;
 
 }
 .center-main {
+    min-height: 350px;
+    display: inline-block;
     background-image: url(../images/Component\ 51.png);
-    width: 100%;
-    height: 100%;
-    background-size:cover;
-    margin-top: -1rem;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+    margin-bottom: -4rem;
+    background-size: 100% 100%;
+    background-position: center center;
   }
   .center-middel {
+    min-height: 350px;
+    display: inline-block;
     background-image: url(../images/Group\ 81.png);
-    width: 100%;
-    height: 55%;
-    background-size:cover;
-    margin-top: -4rem;
+    background-repeat: no-repeat;
+    margin-bottom: -10rem;
+    background-size: 100% 100%;
+    background-position: center center;
   }
 
   .center {
+    min-height: 350px;
+    display: inline-block;
     background-image: url(../images/Component\ 71.png);
-    width: 100%;
-    height: 100%;
-    background-size:cover;
-    margin-top: -3rem;
+    background-repeat: no-repeat;
+    margin-bottom: -5rem;
+    background-size: 100% 100%;
+    background-position: center center;
   }
 
 footer{
@@ -87,6 +89,15 @@ footer{
     bottom: 0;
     width: 100%;
 }
+/* .row{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+} */
 
 @media (max-height:800px){
 	footer { position: static; }
