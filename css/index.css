@@ -168,6 +168,15 @@ footer{
     background-size: 100% 100%;
     background-position: center center;
   }
+  .bottom-spm {
+    min-height: 350px;
+    display: inline-block;
+    background-image: url(../images/Group82.png);
+    background-repeat: no-repeat;
+    margin-bottom: -5rem;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
   .sec-2-spm {
     background-color: #C7D9ED;
     padding-top: 10rem;
@@ -193,3 +202,38 @@ footer{
 
     }
 }
+
+/* The creator section */
+
+.body-style-cr{
+    
+    background-color: #FEC0C0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.middle-style-cr{
+    
+    background-color: #C7D9ED;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.center-cr {
+    min-height: 350px;
+    display: inline-block;
+    background-image: url(../images/Group\ 81.png);
+    background-repeat: no-repeat;
+    margin-bottom: -12rem;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+
+  .middle-cr {
+    min-height: 350px;
+    display: inline-block;
+    background-image: url(../images/Component\ 51.png);
+    background-repeat: no-repeat;
+    margin-bottom: -12rem;
+    background-size: 100% 100%;
+    background-position: center center;
+  }

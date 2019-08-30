@@ -8,6 +8,7 @@
 
 	padding: 45px 50px;
 	margin-top: 80px;
+	z-index: 1;
 }
 
 .footer-distributed .footer-left p{
