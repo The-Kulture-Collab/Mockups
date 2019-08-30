@@ -237,3 +237,31 @@ footer{
     background-size: 100% 100%;
     background-position: center center;
   }
+
+  /* About us section */
+
+  .body-style-au{
+    background-color: #FFEB6B;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.middle-au {
+    min-height: 350px;
+    display: inline-block;
+    background-image: url(../images/Component\ 51.png);
+    background-repeat: no-repeat;
+    margin-bottom: -12rem;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+  .bottom-au {
+    min-height: 350px;
+    display: inline-block;
+    background-image: url(../images/Group82.png);
+    background-repeat: no-repeat;
+    margin-bottom: -12rem;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+
