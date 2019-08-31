@@ -265,3 +265,37 @@ footer{
     background-position: center center;
   }
 
+/* Enterprise */
+
+.body-style-en{
+    background-color: #FFEB6B;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.middle-en {
+    min-height: 350px;
+    display: inline-block;
+    background-image: url(../images/Component\ 51.png);
+    background-repeat: no-repeat;
+    margin-bottom: -12rem;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+
+  /* Storytellers */
+
+  .body-style-st {
+    background-color: #C7F38F;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.center-st {
+    min-height: 350px;
+    display: inline-block;
+    background-image: url(../images/Component\ 71.png);
+    background-repeat: no-repeat;
+    margin-bottom: -12rem;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
