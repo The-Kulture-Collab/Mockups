@@ -106,7 +106,7 @@ footer{
 
 /* Style The Dropdown Button */
 .dropbtn {
-    color: white;
+    background-color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -297,6 +297,11 @@ footer{
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+.middle-style-en{
+    background-color: #C7F38F;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
 
 .middle-en {
     min-height: 350px;
@@ -323,4 +328,8 @@ footer{
     margin-bottom: -12rem;
     background-size: 100% 100%;
     background-position: center center;
+  }
+
+  hr {
+    border-top: 1px solid #606060;
   }
