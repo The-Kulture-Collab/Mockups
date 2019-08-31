@@ -320,6 +320,12 @@ footer{
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+
+.bottom-style-st {
+    background-color: #FFEB6B;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
 .center-st {
     min-height: 350px;
     display: inline-block;
@@ -332,4 +338,20 @@ footer{
 
   hr {
     border-top: 1px solid #606060;
+  }
+
+  .img-display-logo-sm{
+    display: none
+}
+.img-display-logo{
+    display: block;
+}
+
+  @media(max-width:576px){
+      .img-display-logo{
+          display: none;
+      }
+      .img-display-logo-sm{
+          display: block
+      }
   }
