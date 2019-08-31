@@ -22,7 +22,7 @@ span.creator {
     text-align: center;
 }
 span.enterprise {
-    border-bottom: 1px solid #FFE76D;
+    border-bottom: 1px solid #C7D9ED;
     display:block;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
@@ -230,7 +230,13 @@ footer{
 .middle-style-cr{
     
     background-color: #C7D9ED;
-    padding-top: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+.bottom-style-cr{
+    
+    background-color: #C7F38F;
+    padding-top: 8rem;
     padding-bottom: 5rem;
 }
 
@@ -284,7 +290,7 @@ footer{
 /* Enterprise */
 
 .body-style-en{
-    background-color: #FFEB6B;
+    background-color: #C7D9ED;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
