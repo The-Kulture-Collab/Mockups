@@ -9,7 +9,8 @@
         <meta name="keywords" content="footer, links, icons" />
 
         <link rel="stylesheet" href="http://www.kulturecollab.com/Mockups-master/css/demo.css">
-        <link rel="stylesheet" href="../css/footer-distributed.css">
+        <!-- <link rel="stylesheet" href="../css/footer-distributed.css"> -->
+        <link rel="stylesheet" href="http://www.kulturecollab.com/Mockups-master/css/footer-distributed-with-contact-form.css">
 
         <!-- <link rel="stylesheet" href="../css/awesome.min.css"> -->
         <script src="../javascript/JQuery.js"></script>
@@ -49,7 +50,7 @@
                                     <a href = "sports-media.html">Sports Media</a>
                                     <a href = "web-dev.html">Web Development</a>
                                     <a href="about-us.html">About Us</a>
-                                    <a href="#">Contact Us</a>
+                                    <a href="contact-us.html">Contact Us</a>
                             </div>
                             <img src="../images/nav_button.png" class="inf-inv" alt='KC logo'>
                         </div>
@@ -160,10 +161,20 @@
 
                 <div class="footer-right">
 
-                    <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+                    <!-- <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
                     <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
                     <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/thekulturecollab/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/thekulturecollab/"><i class="fab fa-instagram"></i></a> -->
+                    <p>Contact Us</p>
+                    <form action="https://formspree.io/marketing@kulturecollab.com" method="POST" style="width:100%">
+
+                        <input type="text" name="name" style="width:auto;">
+                        <input type="email" name="_replyto" style="width:auto;">
+                        <!-- <button>Send</button> -->
+                        <input type="submit" value="Send" style="width:auto;">
+                        <input type="hidden" name="_next" value="kulturecollab/index.html" style="width:auto;" />
+
+                    </form>
 
                 </div>
 
@@ -182,7 +193,7 @@
                         ·
                         <a href="about-us.html">About Us</a>
                         ·
-                        <a href="#">Contact Us</a>
+                        <a href="contact-us.html">Contact Us</a>
                     
                 </p>
                     <p>Kulture Collab &copy; 2019</p>
